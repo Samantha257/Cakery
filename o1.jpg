@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Occassion </title>
+        <link rel="stylesheet" type="text/css" href="css/occassion.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="main">
+                        <ul>
+                     <li><a href="index.html">HOME</a></li>
+                     <li><a href="ABOUT.html">ABOUT</a></li>
+                          <li class="dropdown"><a href="occassion.html">OCCASION</a>
+                      <ul class="dropdown-content">
+                                    <li><a href="#Bdays">Birthday</a></li>
+                                    <li><a href="#Ann">Anniversary</a></li>
+                                    <li><a href="#Partay">Party</a></li>
+                                    <li><a href="#Wed">Wedding</a></li>
+                              </ul>
+                          </li>
+                          <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+
+
+        <!-- <ul>
+            <li><a href="#Bdays">Birthdays </a></li>
+            <li><a href="#Ann">Anniversary </a></li>
+            <li><a href="#Partay">Party </a></li>
+            <li> <a href="#Wed">Wedding </a></li>
+        </ul> -->
+        <section id="Bdays" data-text="Birthdays"></section>
+        <section id="Ann" data-text="Anniversary"></section>
+        <section id="Partay" data-text="Party"></section>
+        <section id="Wed" data-text="Wedding"></section>
+    </header>
+    </body>
+</html>

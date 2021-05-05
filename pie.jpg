@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>THE CAKERY</title>
+    <link rel="stylesheet" type="text/css" href="css/order.css">
+</head>
+<body>
+     <header>
+	<div class="main">
+                <ul>
+		  <li class="active"><a href="index.html">HOME</a></li>
+   		  <li><a href="ABOUT.html">ABOUT</a></li>          
+                  <li class="dropdown"><a href="occassion.html">OCCASION</a>
+		  	<ul class="dropdown-content">
+                    		<li><a href="#">Birthday</a></li>
+                    		<li><a href="#">Anniversary</a></li>
+                    		<li><a href="#">Party</a></li>
+                    		<li><a href="#">Wedding</a></li>
+                  	</ul>
+                  </li>
+                  <li><a href="#">CONTACT</a></li>
+		</ul>
+     
+           
+          
+         <div class="title">
+          <h1>PLACE ORDER </h1>
+        </div>
+        <div class = "card-container">
+                <div class = "car+d-img1">
+                    <!-- image here -->
+                </div>
+                <div class = "card-content">                    
+                    <form>   <br/> 
+                        <div class = "form-row">
+                            <input type = "text" placeholder="Full Name">
+                            <input type = "text" placeholder="Phone Number"> </div>
+                        <div class = "form-row">
+			    <select name = "payment">
+                                <option value = "payment-select">Payment Options</option>
+                                <option value = "10">UPI</option>
+                                <option value = "10">Credit/Debit/ATM Card</option>
+                                <option value = "10">Net Banking</option>
+                                <option value = "10">Pay on Delivery</option>
+                                <option value = "10">Coupon</option>
+                                <option value = "10">Others</option>
+                            </select>
+			    <select name = "order">
+                                <option value = "cake-select">Cake Options</option>
+                                <option value = "10">CupCake</option>
+                                <option value = "10">Macroon</option>
+                                <option value = "10">Chocolate Cake</option>
+                                <option value = "10">Fruit Cake</option>
+                                <option value = "10">Pie</option>
+                                <option value = "10">Tart</option>
+                            </select>
+                     
+		</div>  <br/>
+		<div class="form-row">
+                          <textarea row="25" cols="55" placeholder="Address"></textarea> 
+                         </div>                      
+                        <div class="form-row">
+                          <input type = "submit" value = "Place Order">    </div>
+                    </form>   </div>   </div> </div>
+     </header>
+ 
+</body>
+</html>

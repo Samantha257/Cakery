@@ -1,0 +1,214 @@
+{
+    margin: 0;
+    padding: 0;
+    font-family: Baskerville Old Face;
+}
+
+/*  header
+  {
+     background: url(../bg.jpg);
+     height: 125vh;
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+ }*/
+
+
+ul{
+  float: right;
+  list-style-type: none;
+  margin-top: 20px;
+  margin-right:20px;
+ }
+
+ul li{
+  display: inline-block;
+  }
+
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 30px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+
+
+ul li.active a{
+   background-color: #fff;
+   color: #000;
+}
+
+
+ul li a:hover {
+   background-color: #fff;
+   color: #000;
+}
+
+
+.main{
+   max-width: 1500px;
+   margin: auto;
+}
+.title h1{
+  color: #fff;
+ font-size:70px;
+ font-family: Baskerville Old Face;
+}
+
+.button{
+    position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.btn{
+   border: 1px solid #fff;
+   padding: 10px 30px;
+   color: #fff;
+   text-decoration: none;
+   font-family: Baskerville Old Face;
+}
+
+.btn:hover{
+     background-color: #fff;
+   color: #000;
+}
+ul li ul li{
+  display: none;
+  box-shadow: rgba(0,0,0,0.2) 0 2px 6px 0;
+  height: 60px;
+  transition: ls all ;
+
+ }
+ul li:hover ul li{
+  display:block;
+  transition: 0.6s ease;
+
+}
+
+p{
+  font-family: Baskerville Old Face;
+  font-size: 30px;
+  list-style-type: none;
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 30px;
+  text-align:justify;
+  position: absolute;
+  float: left;
+  margin-top: 200px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  color: #fff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+html
+{
+    scroll-behavior: smooth;
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+section
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*
+section:nth-child(odd)
+{
+   /* background: #ccc;
+   background-image:url(../3.jpg);
+   align-self: center;
+}
+section:nth-child(even)
+{
+    /*background: #0000ff;
+    background: url(../1.jpg);
+    align-self: center;
+}
+*/
+section:before
+{
+    content: attr(data-tex);
+    color: #262626;
+    font-size: 8em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+ul
+{
+    width: 100%;
+    background: #000;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    letter-spacing: 0;
+    display: flex;
+    justify-content: space-around;
+}
+ul li
+{
+    list-style: none;
+}
+ul li a
+{
+    color: #fff;
+    line-height: 50px;
+    box-sizing: border-box;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+
+
+
+#Bdays{
+    background-image : url(../bg.jpg);
+    background-repeat : no-repeat;
+    background-size : cover;
+}
+
+
+#Ann{
+    background-image : url(../2.jpg);
+    background-repeat : no-repeat;
+    background-size : cover;
+}
+
+
+#Partay{
+    background-image : url(../3.jpg);
+    background-repeat : no-repeat;
+    background-size : cover;
+}
+
+#Wed{
+    background-image : url(../4.jpg);
+    background-repeat : no-repeat;
+    background-size : cover;
+}

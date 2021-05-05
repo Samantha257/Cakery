@@ -1,0 +1,129 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Baskerville Old Face;
+ }
+
+header{
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../cake1.png);
+  height: 125vh;
+  background-size: cover;
+  background-position:center;
+  background-repeat: no-repeat;
+ 
+  
+ }
+
+ul{
+  float: right;
+  list-style-type: none;
+  margin-top: 20px;
+ }
+
+ul li{
+  display: inline-block;
+  }
+
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 30px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+
+ul li a:hover {
+   background-color: #fff;
+   color: #000;
+}
+
+
+
+ul li.active a{
+   background-color: #fff;
+   color: #000;
+}
+.main{
+   max-width: 1500px;
+   margin: auto;
+}
+ul li ul li{
+  display: none;
+  backgroung-color:#fff;
+  box-shadow: rgba(0,0,0,0.2) 0 2px 6px 0;
+  height: 60px;
+  transition: ls all ;
+ 
+ }
+ul li:hover ul li{
+  display:block;
+  transition: 0.6s ease;
+ 
+}
+
+p{
+  font-family: Baskerville Old Face;
+  font-size: 30px;
+  list-style-type: none;
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 30px;
+  text-align:justify;
+  position: absolute;
+  float: left;
+  margin-top: 200px;
+}
+p1{
+   text-align: absolute;
+   position: absolute;
+  left: 100px;
+  top: 300px;
+  font-family: Baskerville Old Face;
+  font-size: 20px;
+  color: #fff;
+  padding: 5px 30px;
+}
+
+.image img{ 
+       width: 250px;
+       height: 250px;
+       left: 20%;
+       top: 75%;
+       position: absolute;
+
+}
+.image1 img{ 
+       width: 250px;
+       height: 250px;
+       left: 40%;
+       top: 75%;
+       position: absolute;
+
+}
+     
+.image2 img{ 
+       width: 250px;
+       height: 250px;
+       left: 60%;
+       top: 75%;
+       position: absolute;
+
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  color: #fff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+
